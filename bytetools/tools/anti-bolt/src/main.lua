@@ -16,8 +16,8 @@ function on_pointer_down(point)
                 radius = 0,
             });
             if Input:key_pressed("ShiftLeft") then
-                if objs[1] ~= nil then
-                    objs[1]:detach();
+                if objs[2] ~= nil then
+                    objs[2]:detach();
                 end;
             else
                 if (objs[1] ~= nil) and (objs[2] ~= nil) then
